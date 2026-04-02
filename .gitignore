@@ -1,0 +1,59 @@
+# ========================
+# Python (Robyn / uv)
+# ========================
+backend-python/.venv/
+backend-python/__pycache__/
+backend-python/**/__pycache__/
+backend-python/**/*.pyc
+backend-python/**/*.pyo
+backend-python/.pytest_cache/
+backend-python/dist/
+
+# ========================
+# Kotlin / JVM (Spring Boot)
+# ========================
+backend-kotlin/.gradle/
+backend-kotlin/build/
+backend-kotlin/out/
+backend-kotlin/*.class
+backend-kotlin/**.jar
+backend-kotlin/local.properties
+backend-kotlin/.idea/
+
+# ========================
+# TypeScript (Elysia.js / Bun)
+# ========================
+backend-ts/node_modules/
+backend-ts/.bun/
+backend-ts/dist/
+backend-ts/*.tsbuildinfo
+
+# ========================
+# Frontend (React + Vite)
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ========================
+# k6 벤치마크 결과
+# ========================
+benchmark/results/*.json
+benchmark/results/*.csv
+
+# ========================
+# OS / IDE
+# ========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ========================
+# 환경 변수
+# ========================
+.env
+.env.local
+.env.*.local
